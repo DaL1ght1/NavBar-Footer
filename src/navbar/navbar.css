@@ -1,0 +1,147 @@
+html {
+  font-family: "Josefin Slab", "Comfortaa", sans-serif;
+  font-size: 1em;
+  background: #eee;
+  height: 100%;
+}
+body {
+  margin: auto !important;
+}
+.active {
+  color: #c351fa;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transition: width 0.3s, right 0.3s, background-color 0.3s;
+  -moz-transition: width 0.3s, right 0.3s, background-color 0.3s;
+  -o-transition: width 0.3s, right 0.3s, background-color 0.3s;
+  transition: width 0.3s, right 0.3s, background-color 0.3s;
+}
+
+.navbar {
+  position: relative;
+  width: 40em;
+  height: 30em;
+  margin: auto;
+  padding: -2;
+  white-space: nowrap;
+  font: bold 20px arial;
+}
+
+.navbar li {
+  display: inline;
+  text-align: center;
+  height: 0em;
+}
+
+.container {
+  opacity: 1;
+  margin: auto;
+
+  text-align: center;
+}
+
+.container > .active {
+  opacity: 1;
+  margin: auto;
+}
+.navbar li a {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 25em;
+  bottom: 0;
+  display: inline-block;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.4em 0.2em;
+  color: #09c;
+  text-decoration: none;
+  text-shadow: 0 1px 0 white;
+
+  -webkit-transition: width 0.3s, right 0.3s;
+  -o-transition: width 0.3s, right 0.3s;
+  -moz-transition: width 0.3s, right 0.3s;
+  transition: width 0.3s, right 0.3s;
+}
+
+.navbar li:nth-child(1) a {
+  width: 6em;
+}
+.navbar li:nth-child(2) a {
+  width: 8em;
+}
+.navbar li:nth-child(3) a {
+  width: 5em;
+}
+.navbar li:nth-child(4) a {
+  width: 12em;
+}
+.navbar li:nth-child(5) a {
+  width: 6em;
+}
+
+.navbar li:last-child a::after {
+  content: "";
+  position: absolute;
+  right: inherit;
+  bottom: -3px;
+  width: inherit;
+  height: 3px;
+  background: #ccc;
+  pointer-events: none;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.navbar li:nth-child(1) ~ li:last-child a {
+  right: 32em;
+  width: 2em;
+}
+
+.navbar li:nth-child(2):hover ~ li:last-child a {
+  right: 24em;
+  width: 4em;
+}
+
+.navbar li:nth-child(3):hover ~ li:last-child a {
+  right: 18em;
+  width: 4em;
+}
+
+.navbar li:nth-child(4):hover ~ li:last-child a {
+  right: 8em;
+  width: 6em;
+}
+
+.navbar li:nth-child(5):last-child:hover a {
+  right: 0;
+  width: 5em;
+}
+
+.navbar li:hover ~ li:last-child a::after,
+.navbar li:last-child:hover a::after {
+  background: #c351fa;
+}
+
+.navbar li:last-child a {
+  min-width: 5em;
+  max-width: 5em;
+}
+.navbar li a:hover,
+.navbar li a:focus {
+  color: #c351fa;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transition: width 0.3s, right 0.3s, background-color 0.3s;
+  -moz-transition: width 0.3s, right 0.3s, background-color 0.3s;
+  -o-transition: width 0.3s, right 0.3s, background-color 0.3s;
+  transition: width 0.3s, right 0.3s, background-color 0.3s;
+}
+.navbar li a.active {
+  color: #c351fa;
+  background-color: rgba(255, 255, 255, 0);
+  -webkit-transition: width 0.3s, right 0.3s, background-color 0.3s;
+  -moz-transition: width 0.3s, right 0.3s, background-color 0.3s;
+  -o-transition: width 0.3s, right 0.3s, background-color 0.3s;
+  transition: width 0.3s, right 0.3s, background-color 0.3s;
+}

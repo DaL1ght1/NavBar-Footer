@@ -1,0 +1,12 @@
+.container {
+  align-self: start;
+  align-items: center;
+  align-content: center;
+}
+
+.kl1 {
+  width: 40em !important;
+  height: 20em !important;
+  align-self: start;
+  align-items: center !important;
+}
