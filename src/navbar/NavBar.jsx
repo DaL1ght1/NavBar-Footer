@@ -1,6 +1,7 @@
-import { children } from "react";
+import { NavLink } from "react-router-dom";
 import logo from "/src/components/logo.png";
 import "./navbar.css";
+
 export default function Navbar() {
   return (
     <>
@@ -15,22 +16,14 @@ export default function Navbar() {
       </a>
 
       <nav className="navbar">
-        <CustomLink href="/home">Home</CustomLink>
-        <CustomLink href="/program">Program</CustomLink>
-        <CustomLink href="/aboutus">About Us</CustomLink>
-        <CustomLink href="/contactus">Contact Us</CustomLink>
-        <CustomLink href="/registration">Registration</CustomLink>
+        <div className="navigation">
+          <NavLink to="/home">Home</NavLink>
+          <NavLink to="/program">Program</NavLink>
+          <NavLink to="/aboutus">About Us</NavLink>
+          <NavLink to="/contactus">Contact Us</NavLink>
+          <NavLink to="/registration">Registration</NavLink>
+        </div>
       </nav>
     </>
-  );
-}
-function CustomLink({ href, children, ...props }) {
-  const path = window.location.pathname;
-  return (
-    <li className={path === href ? "active" : ""}>
-      <a href={href} {...props}>
-        {children}
-      </a>
-    </li>
   );
 }
