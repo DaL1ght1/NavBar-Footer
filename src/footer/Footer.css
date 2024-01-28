@@ -8,14 +8,6 @@ html {
   font: bold;
   font-size: 1.4em;
 }
-.Footer {
-  margin: auto;
-}
-.footer {
-  background-color: #09c;
-  color: #fff;
-  padding: 20px;
-}
 .list-unstyled {
   position: relative;
   width: 40em;
@@ -25,19 +17,23 @@ html {
   white-space: nowrap;
   font: bold 20px arial;
 }
-
+.Logosfooter {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
 .footer {
-  background-color: #09c;
-  color: #fff;
-  padding: 20px 0;
+  background-color: #b0bdc1;
+  color: #b0bdc1;
+  padding: 20px;
+
+  margin: auto;
   text-align: center;
-  border-top: 1px solid #666;
 }
 
 .footer a {
-  color: #fff;
+  color: #b0bdc1;
   text-decoration: wavy;
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 .footer a:hover {
@@ -45,8 +41,8 @@ html {
 }
 
 .page-footer {
-  font-family: "Josefin Slab", "Comfortaa", sans-serif;
-  background: #eee;
+  font-family: cursive, "Comfortaa", sans-serif;
+  background: #b0bdc1;
   color: #333;
 }
 .text-uppercase {
@@ -58,13 +54,13 @@ html {
 }
 
 .page-footer a {
-  color: #09c;
+  color: #0061a8;
   text-decoration: none;
 }
 
 .page-footer a:hover,
 .page-footer a:focus {
-  color: #c351fa;
+  color: #1d202b;
   background-color: rgba(255, 255, 255, 0);
   -webkit-transition: width 0.3s, right 0.3s, background-color 0.3s;
   -moz-transition: width 0.3s, right 0.3s, background-color 0.3s;
@@ -77,11 +73,11 @@ html {
 }
 
 .page-footer ul li a {
-  color: #09c;
+  color: #0061a8;
   text-decoration: none;
 }
 
 .page-footer ul li a:hover,
 .page-footer ul li a:focus {
-  color: #c351fa;
+  color: #1d202b;
 }
