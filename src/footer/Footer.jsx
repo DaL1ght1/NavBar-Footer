@@ -7,7 +7,7 @@ import youtube from "/src/components/icons/youtube.png";
 import contact from "/src/components/icons/contact.png";
 
 const Footer = () => (
-  <footer className="page-footer font-small blue pt-4">
+  <footer className="page-footer ">
     <h5 className="text-uppercase">
       <img
         src={i3elogo}
@@ -28,17 +28,22 @@ const Footer = () => (
 
     <div className="col-md-3 mb-md-0 mb-3">
       <a>
-        <img src={facebook} width="35" height="25" />
-        <a href="#!"> Facebook </a>
-
-        <img src={instagram} width="35" height="25" />
-        <a href="#!"> Instagram </a>
-
-        <img src={youtube} width="35" height="25" />
-        <a href="#!"> YouTube </a>
-
-        <img src={contact} width="35" height="25" />
-        <a href="#!"> Email </a>
+        <a className="Logosfooter">
+          <img src={facebook} width="35" height="25" />
+          <a href="#!"> Facebook </a>
+        </a>
+        <a className="Logosfooter">
+          <img src={instagram} width="35" height="25" />
+          <a href="#!"> Instagram </a>
+        </a>
+        <a className="Logosfooter">
+          <img src={youtube} width="35" height="25" />
+          <a href="#!"> YouTube </a>
+        </a>
+        <a className="Logosfooter">
+          <img src={contact} width="35" height="25" />
+          <a href="#!"> Email </a>
+        </a>
       </a>
     </div>
 
