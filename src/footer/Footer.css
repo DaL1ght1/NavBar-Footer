@@ -1,83 +1,26 @@
+.footer-text {
+  font-family: Poppins;
+  margin-left: -2rem;
+  font-size: 1.25rem;
+  font-style: bold;
+}
+.text-uppercase {
+  font-family: Poppins;
+  font-size: larger;
+}
+.contact {
+  text-align: left;
+  left: -1rem;
+}
 html {
   font-family: "Josefin Slab", "Comfortaa", sans-serif;
-  font-size: 1em;
+  font-size: 2em;
   background: #eee;
   height: 100%;
 }
-.kk12 {
-  font: bold;
-  font-size: 1.4em;
+a {
+  text-decoration: none !important;
 }
-.list-unstyled {
-  position: relative;
-  width: 40em;
-  height: 30em;
-  margin: auto;
-  padding: -2;
-  white-space: nowrap;
-  font: bold 20px arial;
-}
-.Logosfooter {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.footer {
-  background-color: #b0bdc1;
-  color: #b0bdc1;
-  padding: 20px;
-
-  margin: auto;
-  text-align: center;
-}
-
-.footer a {
-  color: #b0bdc1;
-  text-decoration: wavy;
-  font-size: 1.5rem;
-}
-
-.footer a:hover {
-  color: #ccc;
-}
-
-.page-footer {
-  font-family: cursive, "Comfortaa", sans-serif;
-  background: #b0bdc1;
-  color: #333;
-}
-.text-uppercase {
-  size: 1em;
-}
-
-.page-footer h5 {
-  color: #333;
-}
-
-.page-footer a {
-  color: #0061a8;
-  text-decoration: none;
-}
-
-.page-footer a:hover,
-.page-footer a:focus {
-  color: #1d202b;
-  background-color: rgba(255, 255, 255, 0);
-  -webkit-transition: width 0.3s, right 0.3s, background-color 0.3s;
-  -moz-transition: width 0.3s, right 0.3s, background-color 0.3s;
-  -o-transition: width 0.3s, right 0.3s, background-color 0.3s;
-  transition: width 0.3s, right 0.3s, background-color 0.3s;
-}
-
-.page-footer ul li {
-  display: block;
-}
-
-.page-footer ul li a {
-  color: #0061a8;
-  text-decoration: none;
-}
-
-.page-footer ul li a:hover,
-.page-footer ul li a:focus {
-  color: #1d202b;
+.text-center a:hover {
+  color: #feda5e !important;
 }
